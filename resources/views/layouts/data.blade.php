@@ -11,14 +11,16 @@
     </header>
 
     <div id="main" class="row">
-
-            @yield('content')
-           
-
+        <div class = col-xs-4>
+           @include('includes.bio') 
+        </div>
+        <div class = col-xs-8>
+           @yield('content')
+       </div>
     </div>
 </div>
     <footer class="row">
-       @include('includes.footer')
+      @include('includes.js')
     </footer>
 
 

@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/tes', function () {
     return View::make('disp.index');
 });
+
+Route::get('/profile', function () {
+    return View::make('disp.profile');
+});
+Route::get('/contact', function () {
+    return View::make('disp.contact');
+});
+

@@ -1,22 +1,23 @@
 
 <!---navbar-->
-<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-<div class="container-fluid">
-<div class="navbar-header"><a class="navbar-brand" href="#">Website with Bootstrap and laravel</a>
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-</button>
-</div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="/">Home</a>
-                </li>
-                <li><a href="/products">Contact</a>
-                </li>
-                <li><a href="/about-us">Profile</a>
-                </li>
-            </ul>
-        </div>
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="">Make a Website with Bootstrap</a>
     </div>
-</div>	
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/profile">Profile</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 <!---navbar-->
 

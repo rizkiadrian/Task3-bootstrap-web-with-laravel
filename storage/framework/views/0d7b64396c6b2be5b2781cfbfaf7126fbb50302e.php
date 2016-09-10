@@ -11,14 +11,16 @@
     </header>
 
     <div id="main" class="row">
-
-            <?php echo $__env->yieldContent('content'); ?>
-           
-
+        <div class = col-xs-4>
+           <?php echo $__env->make('includes.bio', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> 
+        </div>
+        <div class = col-xs-8>
+           <?php echo $__env->yieldContent('content'); ?>
+       </div>
     </div>
 </div>
     <footer class="row">
-       <?php echo $__env->make('includes.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      <?php echo $__env->make('includes.js', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     </footer>
 
 

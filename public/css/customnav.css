@@ -36,3 +36,12 @@
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #581845;
 }
+h3.bio{
+    display: block;
+    font-size: 2em;
+    margin-top: 1.67em;
+    margin-bottom: 0em;
+    margin-left: 0.5em;
+    margin-right: 0;
+    font-weight: bold;
+}
