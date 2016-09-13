@@ -11,12 +11,7 @@
 |
 */
 
-
-
-Route::get('/profile', function () {
-    return View::make('disp.profile');
-});
-Route::get('/contact', function () {
-    return View::make('disp.contact');
+Route::get('/', function () {
+    return View::make('disp.index');
 });
 
